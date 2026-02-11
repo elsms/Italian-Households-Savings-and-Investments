@@ -1,5 +1,5 @@
 # Introduction 
-[![Notebook](https://img.shields.io/badge/Notebook-Stata-blue)](Project.do)
+[![Stata](https://img.shields.io/badge/Stata-Do%20File-blue)](Project.do)
 
 This project, carried out for the course [Economics of Risk and Agent Behavior](https://www.unive.it/data/course/506445) at [Ca' Foscari University of Venice](https://www.unive.it/web/en/497/home), investigates how demographic and economic factors influenced Italian households' saving and investment decisions in 2022.
 
