@@ -22,6 +22,4 @@ The data used is available in this [folder](Data).
 
 # Key findings 
 
-# How to run the code 
-
 # Conclusion 
