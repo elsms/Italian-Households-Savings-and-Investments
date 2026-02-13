@@ -4,7 +4,7 @@
 # Introduction 
 This project, completed for the [Economics of Risk and Agent Behavior](https://www.unive.it/data/course/506445) module at [Ca' Foscari University of Venice](https://www.unive.it/web/en/497/home), explores how demographic and economic factors influenced Italian households' saving and investment decisions in 2022.
 
-Recalling Modigliani’s **Life-Cycle Hypothesis**, which suggests individuals smooth consumption over their lifetime, the analysis uses empirical data to show that age, income, and household composition strongly affect saving and investment behavior.
+Building on Modigliani’s **Life-Cycle Hypothesis**, which suggests individuals smooth consumption over their lifetime, the analysis uses empirical data to show that age, income, and household composition strongly affect saving and investment behavior.
 
 The findings highlight that real-world financial decisions are shaped by multiple factors beyond the simple lifetime optimization proposed by the model.
 
