@@ -19,10 +19,26 @@ The dataset provides detailed information on Italian households' income and savi
 The data used is available in this [folder](Data). 
 
 # Methodology 
+Two models are developed, using the following strategies: 
+* linear regression
+* logistic regression
 
+### Linear Regression 
+A linear regression model is developed to estimate the variation of the output, savings, based on demographic and economic predictors. The inputs considered are: 
+* geographical area
+* number of children
+* number of components in the household
+* sex
+* educational attainment
+* marital status
+* age
+* financial assets
+* net income
+* consumption 
 
+Given the strong positive correlation between the dependent variable and net income, a logarithmic transformation to both is applied in order to mitigate skewness. The improvement in the R2 of the model with the transformation indicates that the transformed variables better explain the variability in the output. 
 
-
+Finally, to account for potential heteroskedasticity, as the variance of the error term may vary with the regressors, the robust option in Stata is used. 
 
 
 # Key findings 
