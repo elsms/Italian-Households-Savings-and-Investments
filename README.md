@@ -20,8 +20,8 @@ The data used is available in this [folder](Data).
 
 # Methodology 
 Two models are developed using the following strategies: 
-* Linear regression
-* Logistic regression
+* **linear regression**
+* **logistic regression**
 
 ### Linear Regression 
 A linear regression model is developed to estimate variation in the dependent variable, *savings*, based on demographic and economic predictors. The explanatory variables considered include *geographical area*, *number of children*, *household size*, *sex*, *educational attainment*, *marital status*, *age*, *financial assets*, *net income*, and *consumption*.
@@ -30,6 +30,8 @@ Given the strong positive correlation between *savings* and *net income*, a loga
 
 Finally, to address potential heteroskedasticity, where the variance of the error term may depend on the regressors, robust standard errors are estimated, improving the reliability of statistical inference.
 
+### Logistic Regression 
+The second model, the logistic regression one, is computed to investigate the likelihood of households investing in the financial assets considered. The explained variable used is given by the ratio of savings to net income to determine the probability that households would invest in the assets considered if the ratio exceeded an arbitrary threshold of 0.2. If the ratio was below the threshold, the household was considered not to invest. In performing the logistic regression, the robust option was again used to address potential heteroskedasticity. 
 
 # Key findings 
 
