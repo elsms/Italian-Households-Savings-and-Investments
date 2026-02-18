@@ -1,4 +1,4 @@
-
+l.
 [![Stata](https://img.shields.io/badge/Stata-Do%20File-blue)](Project.do)
 
 # Introduction 
@@ -34,5 +34,17 @@ Finally, to address potential heteroskedasticity, where the variance of the erro
 The second model, the logistic regression one, is computed to investigate the likelihood of households investing in the financial assets considered. The explained variable used is given by the ratio of savings to net income to determine the probability that households would invest in the assets considered if the ratio exceeded an arbitrary threshold of 0.2. If the ratio was below the threshold, the household was considered not to invest. In performing the logistic regression, the robust option was again used to address potential heteroskedasticity. 
 
 # Key findings 
+### Linear Regression 
+* *Geographical area* is statistically significant only for individuals from the South, which may reflect regional economic disparities.
+* The presence of *children* negatively impacts savings, as households with children tend to have higher expenses.
+* Larger *household size* is statistically significant and associated with lower savings. Bigger households generally have higher consumption needs, limiting the portion of income that can be set aside.
+* *Education attainment* shows negative and statistically significant coefficients for individuals with a high school diploma, bachelor’s degree, master’s degree, and PhD. This could be explained by the idea that individuals with higher education may prioritize current consumption over savings, possibly due to higher income leading to a higher standard of living and more consumption.
+* *Marital status* is statistically significant, with single individuals showing a positive coefficient. This may reflect fewer shared financial obligations compared to married households, where income is often directed toward joint or family expenses.
+* Only the 35–44 *age* group is statistically significant. The negative coefficient is consistent with life-cycle consumption patterns, where financial responsibilities such as housing or childcare may temporarily reduce savings.
+* *Financial assets* are positively and statistically significant, indicating that individuals with higher asset holdings tend to save more. Greater available resources support continued saving and wealth accumulation.
+* *Consumption* is statistically significant and has a negative sign, suggesting the expected trade-off: as savings increase, consumption decreases, and vice versa. 
+
+
+
 
 # Conclusion 
