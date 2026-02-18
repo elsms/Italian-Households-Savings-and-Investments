@@ -44,6 +44,7 @@ The second model, the logistic regression one, is computed to investigate the li
 * *Financial assets* are positively and statistically significant, indicating that individuals with higher asset holdings tend to save more. Greater available resources support continued saving and wealth accumulation.
 * *Consumption* is statistically significant and has a negative sign, suggesting the expected trade-off: as savings increase, consumption decreases, and vice versa. 
 
+### Logistic Regression 
 
 
 
