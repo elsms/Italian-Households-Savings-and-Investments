@@ -1,4 +1,3 @@
-l.
 [![Stata](https://img.shields.io/badge/Stata-Do%20File-blue)](Project.do)
 
 # Introduction 
@@ -24,7 +23,17 @@ Two models are developed using the following strategies:
 * **logistic regression**
 
 ### Linear Regression 
-A linear regression model is developed to estimate variation in the dependent variable, *savings*, based on demographic and economic predictors. The explanatory variables considered include *geographical area*, *number of children*, *household size*, *sex*, *educational attainment*, *marital status*, *age*, *financial assets*, *net income*, and *consumption*.
+A linear regression model is developed to estimate variation in the dependent variable, *savings*, based on demographic and economic predictors. The explanatory variables considered include: 
+* *geographical area*
+* *number of children*
+* *household size*
+* *sex*
+* *educational attainment*
+* *marital status*
+* *age*
+* *financial assets*
+* *net income*
+* *consumption*
 
 Given the strong positive correlation between *savings* and *net income*, a logarithmic transformation is applied to both variables to mitigate skewness and stabilize variance. The resulting improvement in the model’s R<sup>2</sup> indicates that the transformed specification better captures variability in the output.
 
@@ -35,17 +44,31 @@ The second model, the logistic regression one, is computed to investigate the li
 
 # Key findings 
 ### Linear Regression 
-* *Geographical area* is statistically significant only for individuals from the South, which may reflect regional economic disparities.
-* The presence of *children* negatively impacts savings, as households with children tend to have higher expenses.
-* Larger *household size* is statistically significant and associated with lower savings. Bigger households generally have higher consumption needs, limiting the portion of income that can be set aside.
-* *Education attainment* shows negative and statistically significant coefficients for individuals with a high school diploma, bachelor’s degree, master’s degree, and PhD. This could be explained by the idea that individuals with higher education may prioritize current consumption over savings, possibly due to higher income leading to a higher standard of living and more consumption.
-* *Marital status* is statistically significant, with single individuals showing a positive coefficient. This may reflect fewer shared financial obligations compared to married households, where income is often directed toward joint or family expenses.
-* Only the 35–44 *age* group is statistically significant. The negative coefficient is consistent with life-cycle consumption patterns, where financial responsibilities such as housing or childcare may temporarily reduce savings.
-* *Financial assets* are positively and statistically significant, indicating that individuals with higher asset holdings tend to save more. Greater available resources support continued saving and wealth accumulation.
-* *Consumption* is statistically significant and has a negative sign, suggesting the expected trade-off: as savings increase, consumption decreases, and vice versa. 
+| Variable | Summary of Findings |
+|----------|--------------------|
+| Geographical Area | Statistically significant only for individuals from the South, possibly reflecting regional economic disparities. |
+| Number of Children | Negative and statistically significant; households with children tend to have higher expenses, reducing savings. |
+| Household Size | Negative and statistically significant; larger households have higher consumption needs, limiting the portion of income that can be saved. |
+| Educational Attainment | Negative and statistically significant for high school, bachelor’s, master’s, and PhD levels; higher education may be associated with increased consumption due to higher income and lifestyle expectations. |
+| Marital Status | Positive and statistically significant; single individuals may have fewer shared financial obligations compared to married households. |
+| Age | Negative and statistically significant for those aged 35-44; life-cycle financial responsibilities such as housing or childcare may temporarily reduce savings. |
+| Financial Assets | Positive and statistically significant; individuals with higher asset holdings tend to save more, supporting wealth accumulation. |
+| Consumption | Negative and statistically significant; reflects the trade-off between consumption and savings. |
 
 ### Logistic Regression 
+| Variable | Summary of Findings |
+|----------|--------------------|
+| Geographical Area | Households from the South and Center are more likely to invest compared to those from Northern Italy (reference group). |
+| Household Size | Statistically significant and negative; larger households are less likely to invest, possibly due to higher expenses. |
+| Educational Attainment | Results suggest that individuals with lower education levels are more likely to invest compared to those with higher education. |
+| Consumption | Highly statistically significant and negative; higher consumption reduces the likelihood of investing. |
+| Net Income | Positive and statistically significant; higher net income increases the probability of investing. |
 
-
-
+Running separate logistic regressions for each risky assets:
+* Men are more likely than women to invest in risky assets, indicating greater risk tolerance.
+* Higher education is associated with greater financial literacy and a higher propensity to take financial risks.
+* Younger and older individuals are less likely to invest in risky assets, consistent with the Life-Cycle Theory, which suggests risk-taking peaks around mid-life.
+  
 # Conclusion 
+In conclusion, the analysis highlights that *geographical area*, *household size*, *educational
+attainment*, *age*, and *marital status* significantly influence savings and investment behaviors. Households from the North and Center are more likely to invest in risky assets compared to those in the South. Larger households and those with children tend to save less and invest less. Higher levels of education increase the likelihood of investing in risky assets, while higher consumption and lower income decrease the probability of investing. Finally, men are more likely to invest in risky assets than women.
