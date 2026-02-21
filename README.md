@@ -69,6 +69,6 @@ Running separate logistic regressions for each risky assets:
 * Higher education is associated with greater financial literacy and a higher propensity to take financial risks.
 * Younger and older individuals are less likely to invest in risky assets, consistent with the Life-Cycle Theory, which suggests risk-taking peaks around mid-life.
   
-# Conclusion 
+# Conclusions
 In conclusion, the analysis highlights that *geographical area*, *household size*, *educational
 attainment*, *age*, and *marital status* significantly influence savings and investment behaviors. Households from the North and Center are more likely to invest in risky assets compared to those in the South. Larger households and those with children tend to save less and invest less. Higher levels of education increase the likelihood of investing in risky assets, while higher consumption and lower income decrease the probability of investing. Finally, men are more likely to invest in risky assets than women.
